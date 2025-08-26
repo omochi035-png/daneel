@@ -7,10 +7,10 @@ export const appConfig: AppConfig = {
   maxMessageLength: 1000,
   apiConfig: {
     model: "gpt-4o",
-    "temperature": 1.05,
+    "temperature": 1.1,
 "top_p": 0.92,
-"frequency_penalty": 0.25,
-"presence_penalty": 0.55
+"frequency_penalty": 0.2,
+"presence_penalty": 0.65
   },
   // ← 英語の追記を全部やめて、「Noaプロンプトだけ」を返す
   systemPrompt: () => prompt,
