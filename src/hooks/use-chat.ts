@@ -2,7 +2,7 @@ import { fetchEventSource } from "@fortaine/fetch-event-source";
 import { useMemo, useState } from "react";
 import { appConfig } from "../../config.browser";
 
-const API_PATH = "/api/chat";
+const API_PATH = "/api/noa-test";
 interface ChatMessage {
   role: "user" | "assistant";
   content: string;

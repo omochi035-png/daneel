@@ -1,7 +1,7 @@
 import type { AppConfig } from "./lib/edge/types.ts";
 
-import { prompt } from "./prompts/movie-critic.ts";
-// import { prompt } from "./prompts/tour-guide.ts";
+import { prompt } from "./prompts/noa.ts";
+// import { prompt } from "./prompts/noa.ts";
 
 export const appConfig: AppConfig = {
   // This should be set in an environment variable
@@ -19,7 +19,7 @@ export const appConfig: AppConfig = {
   // The config values sent to the OpenAI API
   // See https://platform.openai.com/docs/api-reference/chat/create
   apiConfig: {
-    model: "gpt-3.5-turbo-1106",
+    model: "gpt-4o",
   },
 
   // This is where the magic happens. See the README for details
