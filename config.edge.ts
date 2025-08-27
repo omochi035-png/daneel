@@ -7,7 +7,7 @@ export const appConfig: AppConfig = {
   maxMessageLength: 1000,
   apiConfig: {
     model: "gpt-4o",
-    temperature: 1.18,
+    temperature: 1.12,
     top_p: 1.0,
     frequency_penalty: 0.15,
     presence_penalty: 0.70,
