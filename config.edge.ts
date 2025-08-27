@@ -10,7 +10,7 @@ export const appConfig: AppConfig = {
     "temperature": 1.2,
 "top_p": 1.0,
 "frequency_penalty": 0.1,
-"presence_penalty": 0.7
+"presence_penalty": 0.6
   },
   // ← 英語の追記を全部やめて、「Noaプロンプトだけ」を返す
   systemPrompt: () => prompt,
