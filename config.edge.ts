@@ -7,9 +7,9 @@ export const appConfig: AppConfig = {
   maxMessageLength: 1000,
   apiConfig: {
     model: "gpt-4o",
-    "temperature": 1.18,
-"top_p": 0.9,
-"frequency_penalty": 0.15,
+    "temperature": 1.2,
+"top_p": 1.0,
+"frequency_penalty": 0.1,
 "presence_penalty": 0.7
   },
   // ← 英語の追記を全部やめて、「Noaプロンプトだけ」を返す
